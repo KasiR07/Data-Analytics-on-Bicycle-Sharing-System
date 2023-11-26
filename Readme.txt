@@ -1,0 +1,2 @@
+This project report presents an analysis of the NYC Bike Share system using Tableau visualization. 
+The NYC Bike Share system provides an alternative mode of transportation, allowing users to rent bicycles for short trips within the city.  

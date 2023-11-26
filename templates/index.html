@@ -1,0 +1,639 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>NYC Bike Share System</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="static/assets/img/favicon.png" rel="icon">
+  <link href="static/assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Source+Sans+Pro:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600;1,700&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="static/assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="static/assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="static/assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="static/assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="static/assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <link href="static/assets/css/variables.css" rel="stylesheet">
+
+  <link href="static/assets/css/main.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="header fixed-top" data-scrollto-offset="0">
+    <div class="container-fluid d-flex align-items-center justify-content-between">
+
+      <a href="index.html" class="logo d-flex align-items-center scrollto me-auto me-lg-0">
+        <!-- <img src="static/assets/img/logo.png" alt=""> -->
+        <h1>GoRider<span>.</span></h1>
+      </a>
+
+      <nav id="navbar" class="navbar">
+        <ul>
+
+
+          <li><a class="nav-link scrollto" href="index.html#about">About</a></li>
+          <li><a class="nav-link scrollto" href="index.html#ride">Ride Experience</a></li>
+          <li><a class="nav-link scrollto" href="index.html#pricing">Pricing</a></li>
+          <li><a class="nav-link scrollto" href="index.html#explore">Explore</a></li>
+          <li><a class="nav-link scrollto" href="index.html#team">Team</a></li>
+          
+          <li><a class="nav-link scrollto" href="index.html#contact">Contact</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle d-none"></i>
+      </nav><!-- .navbar -->
+
+      <a class="btn-getstarted scrollto" href="index.html#about">Get Started</a>
+
+    </div>
+  </header><!-- End Header -->
+
+  <section id="hero-animated" class="hero-animated d-flex align-items-center">
+    <div class="container d-flex flex-column justify-content-center align-items-center text-center position-relative" data-aos="zoom-out">
+      <img src="static/assets/img/hero-carousel/Low-Poly-Prismatic-Girl-On-Bike1.svg" class="img-fluid animated">
+      <h2>Welcome to <span>GoRider</span></h2>
+      <p>New York's Biggest Bike Sharing System!</p>
+      <div class="d-flex">
+        <a href="#about" class="btn-get-started scrollto">Get Started</a>
+        <a href="https://youtu.be/24dFuDx8P-k" class="glightbox btn-watch-video d-flex align-items-center"><i class="bi bi-play-circle"></i><span>Watch Video</span></a>
+      </div>
+    </div>
+  </section>
+
+  <main id="main">
+
+    <!-- ======= Featured Services Section ======= -->
+    <section id="featured-services" class="featured-services">
+      <div class="container">
+
+        <div class="row gy-4">
+
+          <div class="col-xl-3 col-md-6 d-flex" data-aos="zoom-out">
+            <div class="service-item position-relative">
+              <div class="icon"><i class="bi bi-activity icon"></i></div>
+              <h4><a href="" class="stretched-link">Unlock it</a></h4>
+              <p>Pick out a bike, and use the Citi Bike or Lyft app to scan its QR code.</p>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-xl-3 col-md-6 d-flex" data-aos="zoom-out" data-aos-delay="200">
+            <div class="service-item position-relative">
+              <div class="icon"><i class="bi bi-bounding-box-circles icon"></i></div>
+              <h4><a href="" class="stretched-link">Ride it</a></h4>
+              <p>Hop on and start cruisin’.</p>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-xl-3 col-md-6 d-flex" data-aos="zoom-out" data-aos-delay="400">
+            <div class="service-item position-relative">
+              <div class="icon"><i class="bi bi-calendar4-week icon"></i></div>
+              <h4><a href="" class="stretched-link">Drive safe</a></h4>
+              <p>Safety is the atmost priority!</p>
+            </div>
+          </div>
+
+          <div class="col-xl-3 col-md-6 d-flex" data-aos="zoom-out" data-aos-delay="600">
+            <div class="service-item position-relative">
+              <div class="icon"><i class="bi bi-broadcast icon"></i></div>
+              <h4><a href="" class="stretched-link">Park it</a></h4>
+              <p>Find an open space at any docking station. When the lock-in light turns green, you’re all set.
+
+              </p>
+            </div>
+          </div><!-- End Service Item -->
+
+        </div>
+
+      </div>
+    </section><!-- End Featured Services Section -->
+
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-header">
+          <h2>About Us</h2>
+          <p>
+            Riding with GoRider is an easy, affordable, and super-fun way to explore NYC. Just hop on an ebike or classic ride—and be on your way.
+          </p>
+        </div>
+
+        <div class="row g-4 g-lg-5" data-aos="fade-up" data-aos-delay="200">
+
+          <div class="col-lg-5">
+            <div class="about-img">
+              <img src="static/assets/img/IMG/5.jpg" class="img-fluid" alt="">
+            </div>
+          </div>
+
+          <div class="col-lg-7">
+            <h3 class="pt-0 pt-lg-5">At GoRider, we are passionate about revolutionizing the way people move through cities.  </h3>
+
+            <!-- Tabs -->
+            <ul class="nav nav-pills mb-3">
+              
+              <li><a class="nav-link active" data-bs-toggle="pill" href="#tab1">History</a></li>
+              <li><a class="nav-link" data-bs-toggle="pill" href="#tab2">Motive</a></li>
+              <li><a class="nav-link" data-bs-toggle="pill" href="#tab3">Awards</a></li>
+            </ul><!-- End Tabs -->
+
+            <!-- Tab Content -->
+            <div class="tab-content">
+
+
+              <div class="tab-pane fade show active" id="tab1">
+
+                <!-- <p class="fst-italic">History </p> -->
+
+                <div class="d-flex align-items-center mt-4">
+                  <i class="bi bi-check2"></i>
+                  <h4>2008: Founding in the Big Apple</h4>
+                </div>
+                <p>GoRider was founded in the bustling city of New York in 2010 by a group of avid cyclists and urban mobility enthusiasts. Fueled by their passion for sustainable transportation and their love for the vibrant city, they set out to revolutionize commuting in the Big Apple.</p>
+
+                <div class="d-flex align-items-center mt-4">
+                  <i class="bi bi-check2"></i>
+                  <h4>2010: Launch of the First Bike Sharing Program</h4>
+                </div>
+                <p>GoRider launched its inaugural bike sharing program in select neighborhoods of New York. With an initial fleet of 500 bicycles and strategically placed docking stations, GoRider aimed to provide New Yorkers with an alternative mode of transportation that was efficient, eco-friendly, and convenient.</p>
+
+                <div class="d-flex align-items-center mt-4">
+                  <i class="bi bi-check2"></i>
+                  <h4>2013: Integration of Electric Bikes</h4>
+                </div>
+                <p>Recognizing the demand for faster and more efficient transportation options, GoRider introduced electric bikes to its fleet in 2016. The addition of electric bikes provided riders with an effortless way to navigate New York's streets, especially during longer commutes or hilly terrain.</p>
+
+              </div><!-- End Tab 1 Content -->
+
+              <div class="tab-pane fade show" id="tab2">
+
+                <!-- <p class="fst-italic">Consequuntur inventore voluptates consequatur aut vel et. Eos doloribus expedita. Sapiente atque consequatur minima nihil quae aspernatur quo suscipit voluptatem.</p> -->
+
+                <!-- <div class="d-flex align-items-center mt-4">
+                  <i class="bi bi-check2"></i> -->
+                  <!-- <h4>Repudiandae rerum velit modi et officia quasi facilis</h4>
+                </div> -->
+                <p>
+                  The primary motive of GoRider is to revolutionize urban transportation and promote sustainable mobility through our bike sharing system. Our aim is to make commuting in the city easier, more efficient, and enjoyable for everyone. We understand the challenges of navigating through congested streets and limited parking options, which is why we provide a network of conveniently located docking stations and a diverse fleet of bikes. By offering this flexible and accessible transportation option, we empower individuals to choose an eco-friendly alternative to traditional vehicles, reducing carbon emissions and alleviating traffic congestion. Furthermore, we strongly believe in promoting healthier lifestyles. Cycling is not only a sustainable mode of transportation, but it also offers numerous health benefits, such as improved cardiovascular fitness and reduced stress levels. We strive to create a city where people can experience the joy and freedom of cycling while contributing to a greener and more sustainable environment. With GoRider, we are committed to
+                   redefining urban mobility and making a positive impact on the lives of individuals and the communities we serve.From our diverse fleet of bicycles to our user-friendly technology, GoRider is committed to enhancing urban mobility while reducing carbon emissions and promoting healthier lifestyles. Join us on this exciting journey as we transform the way you navigate the Big Apple, one pedal at a time.
+                </p>
+              </div>
+
+                <!-- <div class="d-flex align-items-center mt-4">
+                  <i class="bi bi-check2"></i>
+                  <h4>Incidunt non veritatis illum ea ut nisi</h4>
+                </div>
+                <p>Non quod totam minus repellendus autem sint velit. Rerum debitis facere soluta tenetur. Iure molestiae assumenda sunt qui inventore eligendi voluptates nisi at. Dolorem quo tempora. Quia et perferendis.</p>
+
+                <div class="d-flex align-items-center mt-4">
+                  <i class="bi bi-check2"></i>
+                  <h4>Omnis ab quia nemo dignissimos rem eum quos..</h4>
+                </div>
+                <p>Eius alias aut cupiditate. Dolor voluptates animi ut blanditiis quos nam. Magnam officia aut ut alias quo explicabo ullam esse. Sunt magnam et dolorem eaque magnam odit enim quaerat. Vero error error voluptatem eum.</p>
+
+              </div> -->
+
+              <div class="tab-pane fade show" id="tab3">
+
+                <!-- <p class="fst-italic">Consequuntur inventore voluptates consequatur aut vel et. Eos doloribus expedita. Sapiente atque consequatur minima nihil quae aspernatur quo suscipit voluptatem.</p> -->
+
+                <div class="d-flex align-items-center mt-4">
+                  <i class="bi bi-check2"></i>
+                  <h4>Sustainable Mobility Award</h4>
+                </div>
+                <p>GoRider was honored with the Sustainable Mobility Award in 2022 for our significant contribution to sustainable transportation solutions. This prestigious award recognizes our dedication to reducing carbon emissions, alleviating traffic congestion, and promoting greener cities through our bike sharing system.</p>
+
+                <div class="d-flex align-items-center mt-4">
+                  <i class="bi bi-check2"></i>
+                  <h4>City Choice Award for Best Bike Sharing System</h4>
+                </div>
+                <p>Voted by the residents and visitors of New York, GoRider received the City Choice Award for Best Bike Sharing System. This award reflects the positive impact GoRider has made in the community, providing convenient and eco-friendly transportation options to enhance the quality of urban life.</p>
+
+                <div class="d-flex align-items-center mt-4">
+                  <i class="bi bi-check2"></i>
+                  <h4>Innovator of the Year</h4>
+                </div>
+                <p>GoRider was recognized as the Innovator of the Year by the Urban Mobility Association for our cutting-edge technology, user-friendly mobile app, and commitment to continuously enhancing the bike sharing experience. This award underscores our dedication to leveraging innovation for the benefit of our riders.</p>
+
+              </div><!-- End Tab 3 Content -->
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End About Section -->
+
+    <!-- ======= Clients Section ======= -->
+    <section id="clients" class="clients">
+      <div class="container" data-aos="zoom-out">
+
+        <div class="clients-slider swiper">
+          <div class="swiper-wrapper align-items-center">
+            <div class="swiper-slide"><img src="static/assets/img/clients/client-1.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="static/assets/img/clients/client-2.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="static/assets/img/clients/client-3.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="static/assets/img/clients/client-4.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="static/assets/img/clients/client-5.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="static/assets/img/clients/client-6.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="static/assets/img/clients/client-7.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="static/assets/img/clients/client-8.png" class="img-fluid" alt=""></div>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End Clients Section -->
+
+    <!-- ======= Call To Action Section ======= -->
+    <section id="cta" class="cta">
+      <div class="container" data-aos="zoom-out">
+
+        <div class="row g-5">
+
+          <div class="col-lg-8 col-md-6 content d-flex flex-column justify-content-center order-last order-md-first">
+            <h3>Take NYC <em>by the</em> handlebars</h3>
+            <p> Single rides. Day passes. Annual memberships. Whether you’re a longtime local or just visiting town, we’ve got options to help you get where you’re going. And back again.</p>
+            <a class="cta-btn align-self-start" href="#">Register</a>
+          </div>
+
+          <div class="col-lg-4 col-md-6 order-first order-md-last d-flex align-items-center">
+            <div class="img">
+              <img src="static/assets/img/IMG/1.jpg" alt="" class="img-fluid">
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Call To Action Section -->
+    <!-- ======= Services Section ======= -->
+    <section id="ride" class="ride"></section>
+
+      <div class='tableauPlaceholder' id='viz1688052451968' style='position: relative'><noscript><a href='#'><img alt='New York City Bike Share ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ri&#47;Rideexperience&#47;NYC_Dashboard&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='Rideexperience&#47;NYC_Dashboard' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ri&#47;Rideexperience&#47;NYC_Dashboard&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-GB' /><param name='filter' value='publish=yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1688052451968');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';} else { vizElement.style.width='100%';vizElement.style.height='2577px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+
+
+    <!-- ======= Pricing Section ======= -->
+    <section id="pricing" class="pricing">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-header">
+          <h2>Our Pricing</h2>
+          <p>Get access to new features before anyone else, and get an opportunity to tell us how we can improve the rider experience.</p>
+        </div>
+
+        <div class="row gy-4">
+
+          <div class="col-lg-4" data-aos="zoom-in" data-aos-delay="200">
+            <div class="pricing-item">
+
+              <div class="pricing-header">
+                <h3>Basic Plan</h3>
+                <h4><sup>$</sup>5<span> / month</span></h4>
+              </div>
+
+              <ul>
+                <li><i class="bi bi-dot"></i> <span>Safety Guidelines Books
+                
+                  </span></li>
+                <li><i class="bi bi-dot"></i> <span>Ride time - 30 Mins</span></li>
+                <li><i class="bi bi-dot"></i> <span>Helmet</span></li>
+                <li class="na"><i class="bi bi-x"></i> <span>Customer Support</span></li>
+                <li class="na"><i class="bi bi-x"></i> <span>Promotions and Discounts</span></li>
+              </ul>
+
+              <div class="text-center mt-auto">
+                <a href="#" class="buy-btn">Buy Now</a>
+              </div>
+
+            </div>
+          </div><!-- End Pricing Item -->
+
+          <div class="col-lg-4" data-aos="zoom-in" data-aos-delay="400">
+            <div class="pricing-item featured">
+
+              <div class="pricing-header">
+                <h3>Gold Plan</h3>
+                <h4><sup>$</sup>29<span> / month</span></h4>
+              </div>
+
+              <ul>
+                <li><i class="bi bi-dot"></i> <span>Safety Guidelines Books</span></li>
+                <li><i class="bi bi-dot"></i> <span>Ride time - 45 Mins</span></li>
+                <li><i class="bi bi-dot"></i> <span>Helmet</spa>
+                </li>
+                <li><i class="bi bi-dot"></i> <span>Customer Support</span>
+                </li>
+                <li><i class="bi bi-dot"></i> <span>Promotions and Discounts</span></li>
+              </ul>
+
+              <div class="text-center mt-auto">
+                <a href="#" class="buy-btn">Buy Now</a>
+              </div>
+
+            </div>
+          </div><!-- End Pricing Item -->
+
+          <div class="col-lg-4" data-aos="zoom-in" data-aos-delay="600">
+            <div class="pricing-item">
+
+              <div class="pricing-header">
+                <h3>Diamond Plan</h3>
+                <h4><sup>$</sup>49<span> / month</span></h4>
+              </div>
+
+              <ul>
+                <li><i class="bi bi-dot"></i> <span>Safety Guidelines Books</span></li>
+                <li><i class="bi bi-dot"></i> <span>Ride time - 24 Hrs</span></li>
+                <li><i class="bi bi-dot"></i> <span>Helmet</spa>
+                </li>
+                <li><i class="bi bi-dot"></i> <span>Customer Support</span>
+                </li>
+                <li><i class="bi bi-dot"></i> <span>Promotions and Discounts</span></li>
+              </ul>
+
+              <div class="text-center mt-auto">
+                <a href="#" class="buy-btn">Buy Now</a>
+              </div>
+
+            </div>
+          </div><!-- End Pricing Item -->
+
+        </div>
+
+      </div>
+    </section><!-- End Pricing Section -->
+
+    <!-- ======= Portfolio Section ======= -->
+    <section id="explore" class="explore" data-aos="fade-up">
+      <div class='tableauPlaceholder' id='viz1688052625481' style='position: relative'><noscript><a href='#'><img alt='NYC_Story_1 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ex&#47;Explore_16880525424790&#47;NYC_Story_1&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='Explore_16880525424790&#47;NYC_Story_1' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ex&#47;Explore_16880525424790&#47;NYC_Story_1&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-GB' /><param name='filter' value='publish=yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1688052625481');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+
+      <div class='tableauPlaceholder' id='viz1688052704664' style='position: relative'><noscript><a href='#'><img alt='NYC_Story_2 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ex&#47;Explore_2_16880526926950&#47;NYC_Story_2&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='Explore_2_16880526926950&#47;NYC_Story_2' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ex&#47;Explore_2_16880526926950&#47;NYC_Story_2&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-GB' /><param name='filter' value='publish=yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1688052704664');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+
+    </section>
+
+    <!-- ======= Team Section ======= -->
+    <section id="team" class="team">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-header">
+          <h2>Our Team</h2>
+          <p>At GoRider, we are fueled by a shared passion for revolutionizing urban mobility and promoting sustainable transportation solutions.Our dedicated team of experienced professionals brings together expertise from diverse fields to create a seamless and enjoyable bike sharing experience for our riders. Get to know the individuals who are driving our mission forward and shaping the future of urban transportation.</p>
+        </div>
+
+        <div class="row gy-5">
+
+          <div class="col-xl-4 col-md-6 d-flex" data-aos="zoom-in" data-aos-delay="200">
+            <div class="team-member">
+              <div class="member-img">
+                <img src="static/assets/img/team/team-1.jpg" class="img-fluid" alt="">
+              </div>
+              <div class="member-info">
+                <div class="social">
+                  <a href=""><i class="bi bi-twitter"></i></a>
+                  <a href=""><i class="bi bi-facebook"></i></a>
+                  <a href=""><i class="bi bi-instagram"></i></a>
+                  <a href=""><i class="bi bi-linkedin"></i></a>
+                </div>
+                <h4>Walter White</h4>
+                <span>Founder/CEO</span>
+              </div>
+            </div>
+          </div><!-- End Team Member -->
+
+          <div class="col-xl-4 col-md-6 d-flex" data-aos="zoom-in" data-aos-delay="400">
+            <div class="team-member">
+              <div class="member-img">
+                <img src="static/assets/img/team/team-2.jpg" class="img-fluid" alt="">
+              </div>
+              <div class="member-info">
+                <div class="social">
+                  <a href=""><i class="bi bi-twitter"></i></a>
+                  <a href=""><i class="bi bi-facebook"></i></a>
+                  <a href=""><i class="bi bi-instagram"></i></a>
+                  <a href=""><i class="bi bi-linkedin"></i></a>
+                </div>
+                <h4>Arya Stark</h4>
+                <span>Head of Marketing and Community Engagement</span>
+              </div>
+            </div>
+          </div><!-- End Team Member -->
+
+          <div class="col-xl-4 col-md-6 d-flex" data-aos="zoom-in" data-aos-delay="600">
+            <div class="team-member">
+              <div class="member-img">
+                <img src="static/assets/img/team/team-3.jpg" class="img-fluid" alt="">
+              </div>
+              <div class="member-info">
+                <div class="social">
+                  <a href=""><i class="bi bi-twitter"></i></a>
+                  <a href=""><i class="bi bi-facebook"></i></a>
+                  <a href=""><i class="bi bi-instagram"></i></a>
+                  <a href=""><i class="bi bi-linkedin"></i></a>
+                </div>
+                <h4>Sheldon Cooper</h4>
+                <span>Sustainability Advisor</span>
+              </div>
+            </div>
+          </div><!-- End Team Member -->
+
+        </div>
+
+      </div>
+    </section><!-- End Team Section -->
+
+    <!-- ======= Contact Section ======= -->
+    <section id="contact" class="contact">
+      <div class="container">
+
+        <div class="section-header">
+          <h2>Contact Us</h2>
+          <p>We value your feedback, questions, and inquiries. At GoRider, we are dedicated to providing exceptional customer service and ensuring that your experience with our bike sharing system is smooth and enjoyable. Whether you have a general inquiry, need technical support, or want to explore partnership opportunities, we're here to help.</p>
+        </div>
+
+      </div>
+
+      <div class="map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621" frameborder="0" allowfullscreen></iframe>
+      </div><!-- End Google Maps -->
+
+      <div class="container">
+
+        <div class="row gy-5 gx-lg-5">
+
+          <div class="col-lg-4">
+
+            <div class="info">
+              <h3>Get in touch</h3>
+              <p>We value your input and strive to continuously improve our services. Your feedback is essential in helping us shape the future of urban mobility with GoRider. We look forward to hearing from you and assisting you in any way we can.</p>
+
+              <div class="info-item d-flex">
+                <i class="bi bi-geo-alt flex-shrink-0"></i>
+                <div>
+                  <h4>Location:</h4>
+                  <p>A108 Adam Street, New York, NY 535022</p>
+                </div>
+              </div><!-- End Info Item -->
+
+              <div class="info-item d-flex">
+                <i class="bi bi-envelope flex-shrink-0"></i>
+                <div>
+                  <h4>Email:</h4>
+                  <p>gorider2003@example.com</p>
+                </div>
+              </div><!-- End Info Item -->
+
+              <div class="info-item d-flex">
+                <i class="bi bi-phone flex-shrink-0"></i>
+                <div>
+                  <h4>Call:</h4>
+                  <p>+1 5589 55488 55</p>
+                </div>
+              </div><!-- End Info Item -->
+
+            </div>
+
+          </div>
+
+          <div class="col-lg-8">
+            <form action="../static/forms/contact.php" method="post" role="form" class="php-email-form">
+              <div class="row">
+                <div class="col-md-6 form-group">
+                  <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
+                </div>
+                <div class="col-md-6 form-group mt-3 mt-md-0">
+                  <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
+                </div>
+              </div>
+              <div class="form-group mt-3">
+                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
+              </div>
+              <div class="form-group mt-3">
+                <textarea class="form-control" name="message" placeholder="Message" required></textarea>
+              </div>
+              <div class="my-3">
+                <div class="loading">Loading</div>
+                <div class="error-message"></div>
+                <div class="sent-message">Your message has been sent. Thank you!</div>
+              </div>
+              <div class="text-center"><button type="submit">Send Message</button></div>
+            </form>
+          </div><!-- End Contact Form -->
+
+        </div>
+
+      </div>
+    </section><!-- End Contact Section -->
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer" class="footer">
+
+    <div class="footer-content">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-3 col-md-6">
+            <div class="footer-info">
+              <h3>GoRider</h3>
+              <p>
+                A108 Adam Street <br>
+                NY 535022, USA<br><br>
+                <strong>Phone:</strong> +1 5589 55488 55<br>
+                <strong>Email:</strong> gorider2003@example.com<br>
+              </p>
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-md-6 footer-links">
+            <h4>Useful Links</h4>
+            <ul>
+              <li><i class="bi bi-chevron-right"></i> <a href="#">Home</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#">About us</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#">Services</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#">Terms of service</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#">Privacy policy</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Overview</h4>
+            <ul>
+              <li><i class="bi bi-chevron-right"></i> <a href="#">Partners</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#">System Data</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#">Community Programs</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#">Store</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#">FAQ</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-4 col-md-6 footer-newsletter">
+            <h4>Our Newsletter</h4>
+            <p>Join us in making biking a convenient, eco-friendly, and enjoyable way to navigate the city. Contact us today and let's ride together towards a greener future.</p>
+            <form action="" method="post">
+              <input type="email" name="email"><input type="submit" value="Subscribe">
+            </form>
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-legal text-center">
+      <div class="container d-flex flex-column flex-lg-row justify-content-center justify-content-lg-between align-items-center">
+
+        <div class="d-flex flex-column align-items-center align-items-lg-start">
+          <div class="copyright">
+            &copy; Copyright <strong><span>GoRider</span></strong>. All Rights Reserved
+          </div>
+          <div class="credits">
+            Designed by <a href="#">459</a>
+          </div>
+        </div>
+
+        <div class="social-links order-first order-lg-last mb-3 mb-lg-0">
+          <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
+          <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
+          <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+          <a href="#" class="google-plus"><i class="bi bi-skype"></i></a>
+          <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
+        </div>
+
+      </div>
+    </div>
+
+  </footer><!-- End Footer -->
+
+  <a href="#" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <div id="preloader"></div>
+
+  <!-- JS Files -->
+  <script src="static/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="static/assets/vendor/aos/aos.js"></script>
+  <script src="static/assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="static/assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="static/assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="static/assets/vendor/php-email-form/validate.js"></script>
+  <script src="static/assets/js/main.js"></script>
+
+</body>
+
+</html>
