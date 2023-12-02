@@ -50,6 +50,12 @@ https://public.tableau.com/views/Explore_2_16880526926950/NYC_Story_2?:language=
 
 ![image](https://github.com/KasiR07/Data-Analytics-on-Bicycle-Sharing-System/assets/108777263/41b11ddd-00f4-4111-916d-8611d4d3df38)
 
+![image](https://github.com/KasiR07/Data-Analytics-on-Bicycle-Sharing-System/assets/108777263/7fa82fa4-5d13-412c-8d92-a9d14df54702)
+
+![image](https://github.com/KasiR07/Data-Analytics-on-Bicycle-Sharing-System/assets/108777263/4e0b5329-8c84-4a82-9221-005ecad37f23)
+
+
+
 
 
 
