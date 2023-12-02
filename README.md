@@ -36,14 +36,11 @@ Enhanced User Experience through Technology: The integration of technology cansi
 
 # Tableau Public links
 Tableau Public Link:
-https://public.tableau.com/views/Rideexperience/NYC_Dashboard?:language=en-
-GB&:display_count=n&:origin=viz_share_link
+https://public.tableau.com/views/Rideexperience/NYC_Dashboard?:language=en-GB&:display_count=n&:origin=viz_share_link
 
-https://public.tableau.com/views/Explore_16880525424790/NYC_Story_1?:language=en-
-GB&:display_count=n&:origin=viz_share_link
+https://public.tableau.com/views/Explore_16880525424790/NYC_Story_1?:language=en-GB&:display_count=n&:origin=viz_share_link
 
-https://public.tableau.com/views/Explore_2_16880526926950/NYC_Story_2?:language=en-
-GB&:display_count=n&:origin=viz_share_link
+https://public.tableau.com/views/Explore_2_16880526926950/NYC_Story_2?:language=en-GB&:display_count=n&:origin=viz_share_link
 
 # Website
 ![image](https://github.com/KasiR07/Data-Analytics-on-Bicycle-Sharing-System/assets/108777263/3837e4e7-c772-411f-a422-5ce927a0e00a)
