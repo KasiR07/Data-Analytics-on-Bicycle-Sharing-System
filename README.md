@@ -35,7 +35,6 @@ Improved Bike Redistribution Strategies: Optimizing bike redistribution strategi
 Enhanced User Experience through Technology: The integration of technology cansignificantly enhance the user experience of the bike share system. Developing a user-friendly mobile application that provides real-time information on bike availability, stationlocations, and trip planning can improve convenience and encourage usage. Incorporatingfeatures like digital payment options, bike reservation systems, and bike conditionreporting can further streamline the user experience and increase user satisfaction
 
 # Tableau Public links
-Tableau Public Link:
 https://public.tableau.com/views/Rideexperience/NYC_Dashboard?:language=en-GB&:display_count=n&:origin=viz_share_link
 
 https://public.tableau.com/views/Explore_16880525424790/NYC_Story_1?:language=en-GB&:display_count=n&:origin=viz_share_link
