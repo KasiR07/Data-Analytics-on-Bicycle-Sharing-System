@@ -15,3 +15,11 @@ Overall, the purpose of this project is to provide a comprehensive analysis of t
 # Architecture
 ![image](https://github.com/KasiR07/Data-Analytics-on-Bicycle-Sharing-System/assets/108777263/60a1de3d-27e6-4994-9374-975ed7c03d1a)
 
+# Dashboard
+![image](https://github.com/KasiR07/Data-Analytics-on-Bicycle-Sharing-System/assets/108777263/3a7fa977-cede-4184-83f9-a49eeb1f9452)
+
+# Story 
+![image](https://github.com/KasiR07/Data-Analytics-on-Bicycle-Sharing-System/assets/108777263/2192c162-aac9-47a0-8f7d-955f12b93fdb)
+
+
+
